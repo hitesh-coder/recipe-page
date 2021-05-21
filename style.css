@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  padding: 3rem 15vw;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+}
+
+.title h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 1rem;
+  /* identical to box height */
+  color: #000000;
+}
+
+.title .para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.title .para svg {
+  margin-right: 0.5rem;
+}
+
+.title .para p {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* Gray 2 */
+  color: #4f4f4f;
+}
+
+.image {
+  margin: 3rem 0;
+}
+
+.image img {
+  width: 70vw;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content #time {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 1rem 3rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.content #time .orange {
+  color: #f2994a !important;
+}
+
+.content #time .time {
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content #time .time i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.content #time .time .text h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+  /* Gray 4 */
+  color: #bdbdbd;
+}
+
+.content #time .time .text .T {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.content #content {
+  width: 40vw;
+}
+
+.content #content .ingredients h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.content #content .ingredients h2 {
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.content #content .ingredients .name {
+  margin-bottom: 0.5rem;
+}
+
+.content #content .ingredients .name input {
+  margin-right: 0.3rem;
+}
+
+.content #content .ingredients .name label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.content #content .ingredients .name label span {
+  font-weight: 700;
+}
+
+.content #content .instrustions h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.content #content .instrustions .ins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.content #content .instrustions .ins .no {
+  background: #f2994a;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: 0.75rem;
+}
+
+.content #content .instrustions .ins h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.content #content .instrustions .ins h3 span {
+  font-weight: 700;
+}
+
+.content #content a {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* Gray 4 */
+  color: #bdbdbd;
+  position: relative;
+  top: 3rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  height: 5vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 100px;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+footer a {
+  font-weight: 700;
+  color: #a1a1a1;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    padding: 3rem 5vw;
+  }
+  .title {
+    width: 90vw;
+  }
+  .title h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .title .para p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .image {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .image img {
+    width: 90vw;
+  }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content #time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 1rem 0;
+  }
+  .content #time .second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .content #time .time {
+    margin: 1rem 0;
+  }
+  .content #time .time i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .content #time .time .text h2 {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .content #time .time .text .T {
+    font-size: 12px;
+  }
+  .content #content {
+    width: 90vw;
+  }
+  .content #content .ingredients h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .content #content .ingredients h2 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .content #content .ingredients .name label {
+    font-size: 14px;
+  }
+  .content #content .instrustions h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .content #content .instrustions .ins h3 {
+    font-size: 14px;
+  }
+  .content #content a {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
