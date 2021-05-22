@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://hitesh-coder.github.io/interior-consultant/">
+    <a href="https://hitesh-coder.github.io/recipe-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/hitesh-coder/interior-consultant">
+    <a href="https://hitesh-coder.github.io/recipe-page/">
       Solution
     </a>
     <span> | </span>
@@ -35,10 +35,9 @@
 
 ## Overview
 
-<img width="1440" alt="Screenshot 2021-05-20 at 10 35 00 PM" src="https://user-images.githubusercontent.com/58116679/119021302-e8767680-b9bc-11eb-9d53-91a4479be484.png">
+<img width="1440" alt="Screenshot 2021-05-23 at 4 04 31 AM" src="https://user-images.githubusercontent.com/58116679/119242529-2bcb1380-bb7c-11eb-803b-bc175c84b8d7.png">
 
-<img width="386" alt="Screenshot 2021-05-20 at 10 43 52 PM" src="https://user-images.githubusercontent.com/58116679/119021311-ead8d080-b9bc-11eb-91be-4472f59101f0.png">
-
+<img width="273" alt="Screenshot 2021-05-23 at 4 05 08 AM" src="https://user-images.githubusercontent.com/58116679/119242533-2ff73100-bb7c-11eb-8e89-65bd8a8764ec.png">
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -49,7 +48,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- HTML, CSS and JS
+- HTML & CSS
 
 ## Features
 
@@ -59,5 +58,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- [Website] (https://hitesh-coder.github.io/interior-consultant/)
+- [Website](https://hitesh-coder.github.io/recipe-page/)
 - GitHub [HITESH](https://github.com/hitesh-coder)
